@@ -1,0 +1,29 @@
+{
+  "name": "platzom-fundamentosjs",
+  "version": "0.1.0",
+  "description": "Proyecto de traductor de indioma platzim del curso fundamentos de javascript",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusrojas-frontend/platzom-fundamentosjs.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "Jesus Rojas <jesusrojas.frontend@gmail.com> (http://jesusrojas.com.ve)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
